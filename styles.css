@@ -37,11 +37,11 @@
 
 #example-three>div {
   border: 2px solid #2a2b2a;
-  flex: 1;
+  flex-grow: 1;
 }
 
 div#double-sized {
-  flex: 2 1 0;
+  flex-grow: 2;
 }
 
 #example-four {
@@ -57,5 +57,5 @@ div#double-sized {
 }
 
 #full-width-item {
- width: 100%;
+  width: 100%;
 }
